@@ -46,3 +46,7 @@
 .ant-list-pagination {
     text-align: left;
 }
+
+.ant-breadcrumb a {
+    margin: 0;
+}

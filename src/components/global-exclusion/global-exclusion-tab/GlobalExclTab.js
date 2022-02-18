@@ -7,7 +7,7 @@ import {
   CheckOutlined
 } from "@ant-design/icons";
 import { Input, Checkbox, Radio, List, Image } from "antd";
-import { productsList } from "../../products-visely";
+import { productsList } from "../../../products-visely";
 import { Typography } from "antd";
 
 const { Text } = Typography;
