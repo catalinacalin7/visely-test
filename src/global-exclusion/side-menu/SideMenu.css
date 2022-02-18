@@ -1,0 +1,16 @@
+body {
+    min-height: 100%;
+}
+
+.visely-logo {
+    margin: 20px 0 16px 25px;
+}
+
+.inline-block {
+    background: white;
+    grid-area: menu;
+}
+
+.min-height {
+    min-height: 100vh;
+}

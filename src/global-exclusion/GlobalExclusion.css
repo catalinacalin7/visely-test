@@ -1,0 +1,48 @@
+.global-body {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "menu navbar navbar navbar"
+        "menu main main main"
+        "menu main main main"
+        "menu main main main";
+    grid-template-columns: 256px auto auto auto;
+    grid-template-rows: 64px auto;
+}
+
+.main-page {
+    grid-area: main;
+    padding: 16px 24px;
+}
+
+.tabs-div {
+    background-color: white;
+    margin-top: 14px;
+}
+
+.ant-tabs-top>.ant-tabs-nav,
+.ant-tabs-bottom>.ant-tabs-nav,
+.ant-tabs-top>div>.ant-tabs-nav,
+.ant-tabs-bottom>div>.ant-tabs-nav {
+    margin: 0;
+}
+
+.ant-input:placeholder-shown {
+    width: 70%;
+    margin-left: 8px;
+
+}
+
+.flex {
+    display: flex;
+}
+
+
+.ant-pagination-item a {
+    margin: 0;
+}
+
+.ant-list-pagination {
+    text-align: left;
+}

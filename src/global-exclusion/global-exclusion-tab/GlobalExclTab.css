@@ -1,0 +1,103 @@
+.global-exclusion-tab {
+    padding: 22px 25px;
+}
+
+.search-item-div {
+    margin: 20px 0 24px 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-part {
+    width: 49%;
+}
+
+.padding-21 {
+    padding-top: 21px;
+}
+
+.padding-21 .ant-checkbox-wrapper {
+    margin-right: 36px;
+}
+
+.margin-24 {
+    margin-left: 24px;
+}
+
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.radio-group-container svg {
+    font-size: 21px;
+}
+
+.radio-group-container .ant-radio-button-wrapper {
+    font-size: 21px;
+}
+
+
+.radio-group-container .ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child {
+    background-color: red;
+    color: white;
+}
+
+.radio-group-container .ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:last-child {
+    background-color: #1890FF;
+    color: white;
+}
+
+.radio-group-container .ant-radio-button-wrapper:last-child {
+    background-color: #F5F5F5;
+    color: #BFBFBF;
+}
+
+.radio-group-container .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child {
+    border-color: red;
+}
+
+.radio-group-container .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):last-child {
+    border-color: #1890FF;
+}
+
+.status {
+    display: inline-block;
+    margin: 0;
+    margin-right: 4vw;
+    width: 3vw;
+}
+
+.list-item-style {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.list-item-checkbox-div .ant-checkbox-wrapper {
+    padding-right: 20px;
+}
+
+.list-item-checkbox-div .ant-image {
+    margin-right: 15px;
+}
+
+.image-item {
+    border: 1px solid #D9D9D9;
+    padding: 4px;
+}
+
+.close-icon {
+    color: #BFBFBF;
+    margin-right: 3.3vw;
+    font-size: 15px;
+}
