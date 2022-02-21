@@ -24,7 +24,7 @@
 .ant-tabs-card.ant-tabs-top>.ant-tabs-nav .ant-tabs-tab {
     font-size: var(--font-size);
     line-height: 1;
-    padding: 3px 4px;
+    padding: 4px 7px
 }
 
 .ant-tabs-nav-add {

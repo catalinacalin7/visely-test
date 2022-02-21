@@ -1,0 +1,11 @@
+.search-item-div>.ant-list-bordered.ant-list-lg .ant-list-item {
+    padding: 7px 15px;
+}
+
+.padding-left-7 {
+    padding-left: 7px;
+}
+
+.search-item-div .ant-list-bordered {
+    margin-top: 20px;
+}

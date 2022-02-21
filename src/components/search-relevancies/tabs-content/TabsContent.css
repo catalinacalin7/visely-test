@@ -14,6 +14,19 @@
     margin-top: 5px;
 }
 
+.save-btn {
+    font-size: 8px;
+    height: unset;
+}
+
+.save-btn:first-child {
+    margin-right: 15px;
+}
+
+.margin-top-save-btns {
+    margin-top: 15px;
+}
+
 .margin-top-5 .ant-tabs-tab-remove {
     margin-left: 0;
     font-size: 8px;

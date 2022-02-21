@@ -176,9 +176,11 @@ class TabsContent extends React.Component {
           ))}
         </Tabs>
 
-        <div className="flex justify-end">
-          <Button className="font-size-8">Save</Button>
-          <Button icon={<LineChartOutlined />}>Run A/B Test</Button>
+        <div className="flex justify-end margin-top-save-btns">
+          <Button className="save-btn gray-text">Save</Button>
+          <Button icon={<LineChartOutlined />} className="save-btn gray-text">
+            Run A/B Test
+          </Button>
         </div>
       </div>
     );

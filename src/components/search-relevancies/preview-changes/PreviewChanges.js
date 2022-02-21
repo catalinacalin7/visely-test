@@ -3,6 +3,7 @@ import "antd/dist/antd.css";
 import { Typography, Input, List, Image } from "antd";
 import { QuestionCircleOutlined } from "@ant-design/icons";
 import { productsList } from "../../../products-visely";
+import "./PreviewChanges.css";
 
 const { Text } = Typography;
 const products = productsList.products;
@@ -31,11 +32,10 @@ const SearchRelevancies = () => {
           renderItem={item => (
             <List.Item>
               <div className="flex align-center">
-                <Image
-                  className="image-item"
-                  src={item.media[0].url}
-                />
-                {item.name.en}
+                <Image className="image-item" src={item.media[0].url} />
+                <span className="font-size-8 padding-left-7">
+                  {item.name.en}
+                </span>
               </div>
             </List.Item>
           )}
