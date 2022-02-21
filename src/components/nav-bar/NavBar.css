@@ -31,7 +31,7 @@
     font-size: 12px;
 }
 
-.ant-btn {
+.nav-buttons-wrapper .ant-btn {
     background-color: #001529;
     color: white;
     border: none;
@@ -41,9 +41,9 @@
     margin-right: 13px;
 }
 
-.ant-btn:hover,
-.ant-btn:focus,
-.ant-btn:active {
+.nav-buttons-wrapper .ant-btn:hover,
+.nav-buttons-wrapper .ant-btn:focus,
+.nav-buttons-wrapper .ant-btn:active {
     background-color: #1890FF;
     color: white;
 }
