@@ -22,7 +22,7 @@
     display: flex;
     align-items: center;
     padding-left: 11px !important;
-    font-size: 8px;
+    font-size: var(--font-size);
     height: 25.5px;
     margin: 0;
 }
@@ -40,7 +40,7 @@
 }
 
 .ant-menu-inline.ant-menu-root .ant-menu-submenu-title svg {
-    font-size: 8px;
+    font-size: var(--font-size);
 }
 
 .ant-menu-inline.ant-menu-root .ant-menu-submenu-title .ant-menu-title-content {
@@ -49,4 +49,11 @@
 
 .ant-menu-inline .ant-menu-item:not(:last-child) {
     margin-bottom: 0;
+}
+
+@media only screen and (min-width: 1440px) {
+    .visely-logo {
+        margin: 13px 0 0 16px;
+        width: 92px;
+    }
 }

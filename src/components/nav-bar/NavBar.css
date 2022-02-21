@@ -25,9 +25,6 @@
     width: 19px;
     height: 16px;
     margin-left: 12px;
-}
-
-.menu-icon {
     font-size: 12px;
 }
 
@@ -36,7 +33,7 @@
     color: white;
     border: none;
     border-radius: 0;
-    font-size: 8px;
+    font-size: var(--font-size);
     padding: 0;
     margin-right: 13px;
 }
@@ -49,7 +46,7 @@
 }
 
 .ant-avatar.ant-avatar-icon {
-    font-size: 8px;
+    font-size: var(--font-size);
     width: 16px;
     height: 16px;
     line-height: 16px;
@@ -61,7 +58,7 @@ a {
 }
 
 .anticon-search {
-    font-size: 8px;
+    font-size: var(--font-size);
 }
 
 .ant-input-affix-wrapper {
@@ -73,7 +70,7 @@ a {
 }
 
 .ant-input-affix-wrapper > input.ant-input {
-    font-size: 8px;
+    font-size: var(--font-size);
     margin-left: 0;
 }
 
@@ -89,4 +86,54 @@ a {
     border-left: 1px solid #D9D9D9;
     height: 16px;
     margin: 0 13px 0 0;
+}
+
+@media only screen and (min-width: 1440px) {
+    .nav-bar-div {
+        left: 190px;
+        height: 47px;
+    }
+
+    .nav-bar-div .ant-input {
+        line-height: 22px;
+    }
+
+    .nav-bar-div .ant-dropdown-trigger.ant-dropdown-link .anticon.anticon-down {
+        font-size: var(--font-size);
+    }
+
+    .nav-bar-div .ant-dropdown-trigger.ant-dropdown-link {
+        margin-right: 22px;
+    }
+
+    .menu-icon {
+        font-size: 15px;
+        margin-left: 18px;
+    }
+
+    .ant-avatar.ant-avatar-icon {
+        font-size: 12px;
+        width: 23px;
+        height: 23px;
+        line-height: 23px;
+        margin-right: 10px;
+    }
+
+    .ant-divider-vertical {
+        height: 24px;
+        margin: 0 19px 0 0;
+    }
+
+    .ant-input-affix-wrapper {
+        margin-right: 19px;
+        width: 149px;
+        padding-left: 8px;
+    }
+
+    .nav-buttons-wrapper .ant-btn {
+        margin-right: 19px;
+    }
+    .ant-menu-root.ant-menu-inline {
+        width: 190px !important;
+    }
 }

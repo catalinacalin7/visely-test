@@ -136,7 +136,6 @@ const GlobalExclTab = () => {
                       onChange={() => onProductCheckChange(item)}
                     />
                     <Image
-                      width={44}
                       className="image-item"
                       src={item.media[0].url}
                     />
@@ -191,7 +190,6 @@ const GlobalExclTab = () => {
                       onChange={() => onProductCheckChange2(item)}
                     />
                     <Image
-                      width={44}
                       className="image-item"
                       src={item.media[0].url}
                     />

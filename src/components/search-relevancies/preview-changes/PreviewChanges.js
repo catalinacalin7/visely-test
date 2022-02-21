@@ -32,7 +32,6 @@ const SearchRelevancies = () => {
             <List.Item>
               <div className="flex align-center">
                 <Image
-                  width={44}
                   className="image-item"
                   src={item.media[0].url}
                 />

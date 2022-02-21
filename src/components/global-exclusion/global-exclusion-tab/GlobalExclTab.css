@@ -41,7 +41,7 @@
 
 .total-selected-products-wrapper .ant-checkbox + span {
     padding-left: 5px;
-    font-size: 8px;
+    font-size: var(--font-size);
 }
 
 .ant-radio-group.ant-radio-group-solid svg {
@@ -84,9 +84,7 @@
 
 .status {
     display: inline-block;
-    margin: 0;
-    margin-right: 4vw;
-    width: 3vw;
+    margin: 0 38px 0 0;
 }
 
 .list-item-style {
@@ -96,11 +94,11 @@
 }
 
 .list-item-checkbox-div .ant-checkbox-wrapper {
-    padding-right: 20px;
+    padding-right: 12px;
 }
 
 .list-item-checkbox-div .ant-image {
-    margin-right: 15px;
+    margin-right: 9px;
 }
 
 .image-item {
@@ -115,6 +113,60 @@
 }
 
 .ant-typography {
-    font-size: 8px;
+    font-size: var(--font-size);
     line-height: 1px;
+}
+
+.list-item-checkbox-div {
+    font-size: var(--font-size);
+}
+
+.ant-checkbox-checked .ant-checkbox-inner::after {
+    width: 2.714286px;
+    height: 4.142857px;
+    border-width: 1px;
+}
+
+.anticon.anticon-close.close-icon {
+    font-size: 10px;
+}
+
+.ant-list-bordered .ant-list-pagination {
+    margin: 12px 0;
+}
+
+.ant-list-bordered .ant-list-pagination li {
+    min-width: 17px;
+    height: 17px;
+    line-height: 18px;
+}
+
+.ant-pagination-prev,
+.ant-pagination-jump-prev,
+.ant-pagination-jump-next,
+.ant-pagination-item {
+    margin-right: 2px;
+}
+
+.ant-pagination-item a {
+    font-size: var(--font-size);
+    line-height: 17px;
+}
+
+.ant-select-selector {
+    padding: 0 5px;
+}
+
+.ant-pagination-item-link .anticon {
+    vertical-align: unset;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+    font-size: 6px;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    font-size: var(--font-size);
+    height: 17px;
 }
