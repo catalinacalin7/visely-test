@@ -96,7 +96,7 @@ const GlobalExclTab = () => {
           <Text>
             <strong>ALL PRODUCTS</strong>
           </Text>
-          <div className="padding-21 margin-24 display-flex">
+          <div className="total-selected-products-wrapper">
             <div>
               <Checkbox
                 indeterminate={indeterminate}
@@ -154,7 +154,7 @@ const GlobalExclTab = () => {
           <Text>
             <strong>ALL PRODUCTS</strong>
           </Text>
-          <div className="padding-21 margin-24 display-flex">
+          <div className="total-selected-products-wrapper">
             <div>
               <Checkbox
                 indeterminate={indeterminate2}

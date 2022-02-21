@@ -3,8 +3,8 @@
     align-items: center;
     padding: 0px;
     position: absolute;
-    height: 64px;
-    left: 255px;
+    height: 34px;
+    left: 135px;
     right: 0px;
     top: 0px;
     background: #001529;
@@ -12,11 +12,23 @@
     grid-area: navbar;
 }
 
+.nav-bar-div .ant-dropdown-trigger.ant-dropdown-link {
+    margin-right: 16px;
+}
+
+.nav-bar-div .ant-dropdown-trigger.ant-dropdown-link .anticon.anticon-down {
+        font-size: 6px;
+}
+
 .menu-icon {
     color: white;
     width: 19px;
     height: 16px;
-    margin-left: 26px;
+    margin-left: 12px;
+}
+
+.menu-icon {
+    font-size: 12px;
 }
 
 .ant-btn {
@@ -24,9 +36,9 @@
     color: white;
     border: none;
     border-radius: 0;
-    height: 64px;
-    padding-left: 22px;
-    padding-right: 22px;
+    font-size: 8px;
+    padding: 0;
+    margin-right: 13px;
 }
 
 .ant-btn:hover,
@@ -36,26 +48,33 @@
     color: white;
 }
 
-.avatar-span {
-    background: #BFBFBF;
-    width: 32px;
-    height: 32px;
-    top: 16px;
-    border-radius: 96px;
-    color: white;
-    cursor: pointer;
+.ant-avatar.ant-avatar-icon {
+    font-size: 8px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    margin-right: 6px;
 }
 
 a {
     color: #BFBFBF;
-    margin-right: 30px;
-    margin-left: 10px;
+}
+
+.anticon-search {
+    font-size: 8px;
 }
 
 .ant-input-affix-wrapper {
     width: unset;
-    width: 200px;
-    margin-right: 25px;
+    width: 106px;
+    margin-right: 13px;
+    padding: 0 0 0 5px;
+    line-height: 1;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+    font-size: 8px;
+    margin-left: 0;
 }
 
 .anticon-search {
@@ -63,12 +82,11 @@ a {
 }
 
 .ant-input-prefix {
-    margin-right: 6px;
+    margin-right: 2px;
 }
 
 .ant-divider-vertical {
     border-left: 1px solid #D9D9D9;
-    margin: 0;
-    height: 32px;
-    margin-right: 25px;
+    height: 16px;
+    margin: 0 13px 0 0;
 }

@@ -1,9 +1,10 @@
-body {
-    min-height: 100%;
+.visely-logo-wrapper {
+    height: 34px;
 }
 
 .visely-logo {
-    margin: 20px 0 16px 25px;
+    margin: 10px 0 0 12px;
+    width: 65px;
 }
 
 .inline-block {
@@ -13,4 +14,39 @@ body {
 
 .min-height {
     min-height: 100vh;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title,
+.ant-menu-item-group-title,
+.ant-menu-item.ant-menu-item-only-child {
+    display: flex;
+    align-items: center;
+    padding-left: 11px !important;
+    font-size: 8px;
+    height: 25.5px;
+    margin: 0;
+}
+
+.ant-menu-item-group-title {
+    padding: 0 0 0 17px !important;
+}
+
+.ant-menu-item.ant-menu-item-only-child {
+    padding-left: 24px !important;
+}
+
+.ant-menu-submenu-arrow::before, .ant-menu-submenu-arrow::after {
+    height: 0.1px;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title svg {
+    font-size: 8px;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-submenu-title .ant-menu-title-content {
+    margin-left: 2px;
+}
+
+.ant-menu-inline .ant-menu-item:not(:last-child) {
+    margin-bottom: 0;
 }

@@ -1,9 +1,13 @@
 .global-exclusion-tab {
-    padding: 22px 25px;
+    padding: 5px 14px;
+}
+
+.global-exclusion-tab .flex.space-between {
+    margin-top: 5px;
 }
 
 .search-item-div {
-    margin: 20px 0 24px 0;
+    margin-top: 4px;
 }
 
 .flex {
@@ -18,24 +22,30 @@
     width: 49%;
 }
 
-.padding-21 {
-    padding-top: 21px;
-}
-
-.padding-21 .ant-checkbox-wrapper {
-    margin-right: 36px;
-}
-
-.margin-24 {
-    margin-left: 24px;
-}
-
-
-.display-flex {
+.total-selected-products-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 17px;
+    padding-left: 11px;
+}
+
+.total-selected-products-wrapper .ant-checkbox-inner {
+    width: 8px;
+    height: 8px;
+}
+
+.total-selected-products-wrapper .ant-checkbox-inner:after {
+    width: 4px;
+    height: 4px;
+}
+
+.total-selected-products-wrapper .ant-checkbox + span {
+    padding-left: 5px;
+    font-size: 8px;
+}
+
+.ant-radio-group.ant-radio-group-solid svg {
+    font-size: 10px;
 }
 
 .radio-group-container svg {
@@ -43,9 +53,11 @@
 }
 
 .radio-group-container .ant-radio-button-wrapper {
-    font-size: 21px;
+    font-size: 10px;
+    padding: 0 8px;
+    height: 17px;
+    line-height: 17px;
 }
-
 
 .radio-group-container .ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child {
     background-color: red;
@@ -100,4 +112,9 @@
     color: #BFBFBF;
     margin-right: 3.3vw;
     font-size: 15px;
+}
+
+.ant-typography {
+    font-size: 8px;
+    line-height: 1px;
 }

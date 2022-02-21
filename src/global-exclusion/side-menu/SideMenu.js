@@ -19,14 +19,16 @@ class SideMenu extends React.Component {
   render() {
     return (
       <div className="inline-block min-height">
-        <img
-          src={require("../../images/visely-logo.svg").default}
-          className="visely-logo"
-          alt="mySvgImage"
-        />
+        <div className="visely-logo-wrapper">
+          <img
+            src={require("../../images/visely-logo.svg").default}
+            className="visely-logo"
+            alt="mySvgImage"
+          />
+        </div>
         <Menu
           onClick={this.handleClick}
-          style={{ width: 256 }}
+          style={{ width: 136 }}
           defaultSelectedKeys={["6"]}
           defaultOpenKeys={["sub1"]}
           mode="inline"

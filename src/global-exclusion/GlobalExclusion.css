@@ -7,18 +7,24 @@
         "menu main main main"
         "menu main main main"
         "menu main main main";
-    grid-template-columns: 256px auto auto auto;
-    grid-template-rows: 64px auto;
+    grid-template-columns: 136px auto auto auto;
+    grid-template-rows: 34px auto;
 }
 
 .main-page {
     grid-area: main;
-    padding: 16px 24px;
+    padding: 8px 12px;
 }
 
 .tabs-div {
     background-color: white;
-    margin-top: 14px;
+    margin-top: 7px;
+}
+
+.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab {
+    font-size: var(--font-size);
+    line-height: 1;
+    padding: 4px 8px;
 }
 
 .ant-tabs-top>.ant-tabs-nav,
@@ -30,8 +36,9 @@
 
 .ant-input:placeholder-shown {
     width: 70%;
-    margin-left: 8px;
-
+    margin-left: 5px;
+    font-size: 8px;
+    padding: 1px 5px;
 }
 
 .flex {
@@ -45,4 +52,12 @@
 
 .ant-list-pagination {
     text-align: left;
+}
+
+.ant-breadcrumb {
+    font-size: var(--font-size);
+}
+
+.ant-breadcrumb-separator {
+    margin: 0 4px;
 }
