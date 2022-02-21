@@ -10,3 +10,11 @@ html body {
 .inline-block {
   display: inline-block;
 }
+
+.font-size-8 {
+  font-size: 8px;
+}
+
+.font-size-7 {
+  font-size: 7px;
+}

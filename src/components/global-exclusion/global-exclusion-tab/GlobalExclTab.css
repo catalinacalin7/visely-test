@@ -10,6 +10,13 @@
     margin-top: 4px;
 }
 
+.search-item-div .ant-radio-button-wrapper {
+    line-height: unset;
+    padding: 2px 6px;
+    font-size: 8px;
+    height: unset;
+}
+
 .flex {
     display: flex;
 }
@@ -39,7 +46,7 @@
     height: 4px;
 }
 
-.total-selected-products-wrapper .ant-checkbox + span {
+.total-selected-products-wrapper .ant-checkbox+span {
     padding-left: 5px;
     font-size: 8px;
 }
@@ -116,5 +123,4 @@
 
 .ant-typography {
     font-size: 8px;
-    line-height: 1px;
 }

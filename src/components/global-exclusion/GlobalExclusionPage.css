@@ -21,10 +21,15 @@
     margin-top: 7px;
 }
 
-.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab {
+.ant-tabs-card.ant-tabs-top>.ant-tabs-nav .ant-tabs-tab {
     font-size: var(--font-size);
     line-height: 1;
-    padding: 4px 8px;
+    padding: 3px 4px;
+}
+
+.ant-tabs-nav-add {
+    font-size: 8px;
+    min-width: unset;
 }
 
 .ant-tabs-top>.ant-tabs-nav,

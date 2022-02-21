@@ -9,3 +9,95 @@
 .justify-end {
     justify-content: flex-end;
 }
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-5 .ant-tabs-tab-remove {
+    margin-left: 0;
+    font-size: 8px;
+}
+
+.tabs-content-wrapper .ant-tabs-tabpane {
+    padding: 13px 11px;
+}
+
+.margin-2 {
+    margin: 0 2px;
+}
+
+.fit-content .ant-input:placeholder-shown {
+    width: 80px;
+    font-size: 7px;
+}
+
+.fit-content .ant-typography {
+    font-size: 7px;
+}
+
+.customize-flex-wrapper .ant-typography {
+    font-size: 7px;
+}
+
+.margin-top-17 {
+    margin-top: 17px;
+}
+
+.drag-and-drop-icon .anticon svg {
+    font-size: 10px;
+}
+
+.drag-and-drop-icon {
+    float: right;
+    height: unset;
+    width: 22px;
+}
+
+.fields-list .ant-list-item {
+    font-size: 8px;
+}
+
+.fields-list .question-icon {
+    margin-left: 2px;
+}
+
+
+.fields-list .ant-switch-handle {
+    height: 10px;
+    width: 10px;
+}
+
+.fields-list .ant-switch {
+    height: 14px;
+    min-width: 27px;
+    margin-right: 11px;
+}
+
+.footer-plus-icon .anticon,
+.fields-list .ant-btn-icon-only {
+    font-size: 8px;
+    height: unset;
+    width: 22px;
+    padding: 1px 0;
+}
+
+#scrollableDiv {
+    width: 320px;
+    padding: 0 10px;
+    border: 1px solid rgba(140, 140, 140, 0.35);
+}
+
+.fields-list .ant-dropdown-trigger,
+.fields-list .ant-dropdown-trigger>.anticon.anticon-down {
+    font-size: 8px;
+    padding: 0 2px;
+    align-items: center;
+    display: flex;
+    height: unset;
+}
+
+.footer-item .footer-plus-icon {
+    margin-inline-end: auto;
+    margin-left: 17px;
+}

@@ -19,8 +19,8 @@ const SearchRelevancies = () => {
         <Breadcrumb.Item>Search Relevancies</Breadcrumb.Item>
       </Breadcrumb>
 
-      <div className="flex space-between margin-top-16">
-        <div className="search-rel-wrapper backbackground-white wrapper-border height-fit-content">
+      <div className="flex space-between margin-top-6">
+        <div className="search-rel-wrapper backbackground-white wrapper-border height-fit-content search-wrapper-padding">
           <Text>
             <strong>SEARCH RELEVANCIES </strong>
             <span className="gray-text">
@@ -28,12 +28,12 @@ const SearchRelevancies = () => {
             </span>
           </Text>
 
-          <div className="search-item-div flex align-center">
+          <div className="search-item-div flex align-center ">
             <Text>
               Select page &nbsp;
               <QuestionCircleOutlined /> :
             </Text>
-            <div className="margin-left-19">
+            <div className="margin-left-8">
               <span className="radio-group-container-1">
                 <Radio.Group buttonStyle="solid">
                   <Radio.Button value="c">Search</Radio.Button>
@@ -56,7 +56,7 @@ const SearchRelevancies = () => {
           <TabsContent></TabsContent>
         </div>
 
-        <div className="preview-changes-wrapper backbackground-white wrapper-border ">
+        <div className="preview-changes-wrapper backbackground-white wrapper-border search-wrapper-padding">
           <PreviewChanges></PreviewChanges>
         </div>
       </div>

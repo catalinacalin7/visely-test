@@ -98,13 +98,12 @@ class TabsContent extends React.Component {
   render() {
     const { panes, activeKey } = this.state;
     return (
-      <div>
+      <div className="margin-top-5 tabs-content-wrapper">
         <Tabs
           type="editable-card"
           onChange={this.onChange}
           activeKey={activeKey}
           onEdit={this.onEdit}
-          style={{ marginTop: "12px" }}
         >
           {panes.map(pane => (
             <TabPane
@@ -113,53 +112,60 @@ class TabsContent extends React.Component {
               closable={pane.closable}
               className="border-gray"
             >
-              <div className="flex space-between align-center">
-                <Text className="gray-text">
+              <div className="flex space-between align-center customize-flex-wrapper">
+                <Text className="gray-text font-size-7">
                   Customize and prioritize your variations until you get the
                   desired results:
                 </Text>
 
                 <div className="flex align-center fit-content">
-                  <Text>Variation name</Text>
-                  <QuestionCircleOutlined />
-                  <span>:</span>
-                  <Input placeholder="New Variation 1" />
+                  <Text className="font-size-7">Variation name</Text>
+                  <QuestionCircleOutlined className="font-size-8 margin-2" />
+                  <span className="font-size-8">:</span>
+                  <Input
+                    placeholder="New Variation 1"
+                    className="font-size-7"
+                  />
                 </div>
               </div>
 
               {fields.map(field => (
-                <div className="flex space-between">
+                <div className="flex space-between margin-top-17">
                   <Text>
                     <strong>{field.title}</strong>
                   </Text>
-                  <div
-                    id="scrollableDiv"
-                    style={{
-                      padding: "0 16px",
-                      border: "1px solid rgba(140, 140, 140, 0.35)"
-                    }}
-                  >
-                    <List>
+                  <div id="scrollableDiv">
+                    <List className="fields-list">
                       {field.fields.map(fld => (
                         <List.Item key={fld.key}>
-                          <Switch checked={fld.checked} />
+                          <Switch size="small" />
                           {fld.title}
-                          <QuestionCircleOutlined />
+                          <QuestionCircleOutlined className="question-icon" />
                           <Button
                             style={{ float: "right" }}
+                            className="drag-and-drop-icon"
                             icon={<DragOutlined />}
                           />
                         </List.Item>
                       ))}
                       {field.title === "Product Fields" ? (
-                        <List.Item key="6">
+                        <List.Item key="6" className="footer-item">
                           <Dropdown overlay={menu}>
                             <Button>
-                              Select Searchable Attribute <DownOutlined />
+                              Select Searchable Attribute{" "}
+                              <DownOutlined className="font-size-8" />
                             </Button>
                           </Dropdown>
-                          <Button icon={<PlusOutlined />} />
-                          <Button icon={<DragOutlined />} disabled />
+                          <Button
+                            icon={<PlusOutlined />}
+                            className="footer-plus-icon"
+                          />
+
+                          <Button
+                            icon={<DragOutlined />}
+                            disabled
+                            className="drag-and-drop-icon"
+                          />
                         </List.Item>
                       ) : null}
                     </List>
@@ -171,7 +177,7 @@ class TabsContent extends React.Component {
         </Tabs>
 
         <div className="flex justify-end">
-          <Button>Save</Button>
+          <Button className="font-size-8">Save</Button>
           <Button icon={<LineChartOutlined />}>Run A/B Test</Button>
         </div>
       </div>
