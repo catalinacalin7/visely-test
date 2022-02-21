@@ -2,9 +2,19 @@
   --font-size: 8px;
 }
 
+@media only screen and (min-width: 1440px) {
+  :root {
+    --font-size: 11px;
+  }
+
+}
 html body {
   min-height: 100%;
-  font-size: 8px;
+  font-size: var(--font-size);
+}
+
+p {
+  font-size: var(--font-size);
 }
 
 .inline-block {

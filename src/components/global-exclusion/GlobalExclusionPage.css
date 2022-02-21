@@ -42,7 +42,7 @@
 .ant-input:placeholder-shown {
     width: 70%;
     margin-left: 5px;
-    font-size: 8px;
+    font-size: var(--font-size);
     padding: 1px 5px;
 }
 
@@ -65,4 +65,32 @@
 
 .ant-breadcrumb-separator {
     margin: 0 4px;
+}
+
+.ant-list-bordered {
+    margin-top: 10px;
+}
+
+.ant-image {
+    width: 26px;
+}
+
+.image-item {
+    padding: 1px;
+}
+
+.ant-list-bordered.ant-list-lg .ant-list-item {
+    padding: 12px 11px;
+}
+
+.ant-list .ant-checkbox-inner {
+    width: 8px;
+    height: 8px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .global-body {
+        grid-template-columns: 189px auto auto auto;
+        grid-template-rows: 47px auto;
+    }
 }
