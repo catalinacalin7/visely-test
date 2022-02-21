@@ -29,7 +29,7 @@ class NavBar extends React.Component {
     return (
       <div className="nav-bar-div">
         <MenuFoldOutlined className="menu-icon" />
-        <div>
+        <div className="nav-buttons-wrapper">
           <Button icon={<BellOutlined />}>Notifications</Button>
           <Button icon={<BarChartOutlined />}>Statistics</Button>
           <Divider type="vertical" />

@@ -1,0 +1,11 @@
+.fit-content .ant-typography {
+    min-width: fit-content;
+}
+
+.border-gray {
+    border: 1px solid #f0f0f0;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}

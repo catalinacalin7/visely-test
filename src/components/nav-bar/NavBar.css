@@ -19,7 +19,7 @@
     margin-left: 26px;
 }
 
-.ant-btn {
+.nav-buttons-wrapper .ant-btn {
     background-color: #001529;
     color: white;
     border: none;
@@ -29,9 +29,9 @@
     padding-right: 22px;
 }
 
-.ant-btn:hover,
-.ant-btn:focus,
-.ant-btn:active {
+.nav-buttons-wrapper .ant-btn:hover,
+.nav-buttons-wrapper .ant-btn:focus,
+.nav-buttons-wrapper .ant-btn:active {
     background-color: #1890FF;
     color: white;
 }
